@@ -18,7 +18,7 @@ function mostrarNotificacion() {
 
         else if(Notification.permission == "default") {
             alert("Recordatorio pagar la luz");
-            var n = new Notification(titulo, opciones);
+            
         }
 
         else {
