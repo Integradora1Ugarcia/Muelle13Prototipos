@@ -17,7 +17,8 @@ function mostrarNotificacion() {
         }
 
         else if(Notification.permission == "default") {
-            alert("Primero da los permisos de notificación");
+            alert("Recordatorio pagar la luz");
+            var n = new Notification(titulo, opciones);
         }
 
         else {
